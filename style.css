@@ -34,7 +34,6 @@ header {
 }
 
 ul {
-  display: inline-flex;
   list-style: none;
 }
 li {
