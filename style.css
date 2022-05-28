@@ -1,0 +1,132 @@
+:root {
+  --main: #0f3923;
+  --primary: #fecc27;
+  --secondary: #f3f2f6b5;
+  --default: #f1f3ee;
+}
+*,
+html,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url("./fela.jpg"),
+    linear-gradient(rgb(133, 131, 131), rgb(55, 52, 52));
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+.navigation {
+  align-items: center;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+}
+li {
+  float: right;
+  padding: 8px;
+}
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  color: var(--default);
+  text-decoration: none;
+  justify-content: space-between;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--primary);
+}
+.logo,
+img {
+  align-items: center;
+  margin: 5px;
+  border-radius: 05rem;
+}
+.brand {
+  cursor: pointer;
+  color: var(--default);
+}
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container2 {
+  display: flex;
+  background-color: var(--secondary);
+}
+.container3 {
+  display: flex;
+  background-color: var(--secondary);
+}
+.box {
+  padding: 50px;
+  color: var(--default);
+  width: 100%;
+  /* gap: 60px; */
+  justify-content: space-around;
+  text-align: left;
+  display: flex;
+  grid-template-columns: auto;
+  background-color: rgba(0, 0, 0, 0.882);
+  border-radius: 2px;
+}
+.box2 {
+  padding: 20px 30px;
+  color: var(--);
+  grid-template-columns: auto;
+}
+.boxImg img {
+  transform: rotate(20deg);
+  /* margin-left: 4.5rem; */
+}
+button {
+  padding: 4px;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ffae00;
+}
+footer {
+  position: fixed;
+  padding: 5px;
+}
+@media (max-width: 850px) {
+  .box {
+    display: block;
+  }
+  .boxImg {
+    grid-template-columns: auto;
+  }
+  .brand {
+    display: none;
+  }
+  .container2,
+  .container3 {
+    display: inline-block;
+  }
+}
