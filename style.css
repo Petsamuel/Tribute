@@ -15,9 +15,8 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-image: url("./fela.jpg"),
+  font-family: Poppins, sans-serif;
+  background-image: url("https://drive.google.com/uc?export=view&id=1inojq5MW88beHhwqe4XIlwCey8Q-bfjO"),
     linear-gradient(rgb(133, 131, 131), rgb(55, 52, 52));
   background-blend-mode: multiply;
   background-repeat: no-repeat;
@@ -54,11 +53,11 @@ a:hover {
   text-decoration: underline;
   color: var(--primary);
 }
-.logo,
+.logo
 img {
   align-items: center;
   margin: 5px;
-  border-radius: 05rem;
+  border-radius: 5rem;
 }
 .brand {
   cursor: pointer;
