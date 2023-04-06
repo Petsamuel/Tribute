@@ -1,6 +1,6 @@
 ﻿# Tribute
 
-Frontend Task 
+
 
 ## Got feedback for me?
 
